@@ -1,0 +1,10 @@
+.PostItem {
+    margin-top: 25px;
+    padding: 25px;
+    box-shadow: 0 4px 16px 0 rgba(214, 214, 214, 0.5);
+}
+
+.PostItem a {
+    text-decoration: none;
+    cursor: pointer;
+}

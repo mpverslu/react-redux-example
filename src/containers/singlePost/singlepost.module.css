@@ -1,0 +1,19 @@
+.Post {
+    margin-top: 25px;
+    padding: 25px;
+    box-shadow: 0 4px 16px 0 rgba(214, 214, 214, 0.5);
+}
+
+.Button {
+    padding: 10px 15px;
+    background-color: black;
+    border: 4px solid black;
+    color: white;
+    display: inline-block;
+    transition: all 150ms;
+}
+
+.Button:hover {
+    color: black;
+    background-color: white;
+}
