@@ -12,7 +12,7 @@ import * as types from '../actions/types';
 */
 export const saveFetchedPosts = (posts) => {
     console.log('(SaveFetchedPosts) Saving posts!');
-    
+
     return {
         type: types.FETCH_POSTS,
         posts: posts
@@ -25,7 +25,6 @@ export const saveFetchedPosts = (posts) => {
     Hiermee kan je async calls dispatchen naar je reducer.
 */
 export const fetchPosts = () => {
-    console.log('(Post Action) Fetch posts');
     return (dispatch, getState) => {
         const state = getState();
 
